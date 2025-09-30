@@ -1,5 +1,7 @@
 package com.example.patterns.structural.decorator;
 
-public class Coffee {
-    
+public interface Coffee {
+    double cost();
+
+    String desc();
 }
