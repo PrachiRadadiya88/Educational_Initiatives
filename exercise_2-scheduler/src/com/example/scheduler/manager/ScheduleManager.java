@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
 
 public class ScheduleManager {
     private static final Logger logger = Logger.getLogger(ScheduleManager.class.getName());
-    // eager singleton
     private static final ScheduleManager INSTANCE = new ScheduleManager();
     private final List<Task> tasks = new ArrayList<>();
     private final List<ConflictListener> listeners = new ArrayList<>();
