@@ -1,7 +1,7 @@
 package com.example.scheduler.util;
 
 import java.util.Scanner;
-import java.util.function.Predicate;
+
 
 public class InputUtils {
     public static String prompt(Scanner sc, String message){
